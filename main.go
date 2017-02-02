@@ -42,7 +42,7 @@ func run() error {
 	}
 
 	// how long the title card appears for
-	time.Sleep(1 * time.Second)
+	time.Sleep(3 * time.Second)
 
 	s, err := newScene(r)
 	if err != nil {
